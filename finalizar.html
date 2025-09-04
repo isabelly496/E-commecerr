@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Finalizar Compra - Encanto</title>
+</head>
+<body>
+  <header>
+    <h1>Finalizar Compra</h1>
+  </header>
+
+  <main>
+    <h2>Dados para Entrega</h2>
+    <form>
+      <p>
+        <label>Nome Completo:<br>
+        <input type="text" name="nome" required></label>
+      </p>
+      <p>
+        <label>Endereço:<br>
+        <input type="text" name="endereco" required></label>
+      </p>
+      <p>
+        <label>Cidade:<br>
+        <input type="text" name="cidade" required></label>
+      </p>
+      <p>
+        <label>CEP:<br>
+        <input type="text" name="cep" required></label>
+      </p>
+      <p>
+        <label>Telefone:<br>
+        <input type="tel" name="telefone" required></label>
+      </p>
+
+      <h2>Forma de Pagamento</h2>
+      <p>
+        <label><input type="radio" name="pagamento" value="cartao" required> Cartão de Crédito</label><br>
+        <label><input type="radio" name="pagamento" value="boleto"> Boleto Bancário</label><br>
+        <label><input type="radio" name="pagamento" value="pix"> Pix</label>
+      </p>
+
+      <p>
+        <button type="submit">Confirmar Pedido</button>
+      </p>
+    </form>
+
+    <p><a href="carrinho.html">⬅ Voltar ao Carrinho</a></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Esmaltes Encanto</p>
+  </footer>
+</body>
+</html>
